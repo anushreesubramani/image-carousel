@@ -23,7 +23,6 @@ export default class Slider extends Component {
   componentDidMount() {
     window.addEventListener('resize', this.updateDimensions);
     this.updateDimensions();
-    console.log(API_KEY);
 
     axios
       .get(
@@ -31,7 +30,6 @@ export default class Slider extends Component {
       )
       .then(response => {
         const images = this.filterImages(response.data.hits);
-        console.log(images);
         this.setState({
           images
         });
@@ -107,7 +105,6 @@ export default class Slider extends Component {
   };
 
   render() {
-    const { counter, slides } = this.state;
     return (
       <div>
         <Heading>Caurosel Test</Heading>
