@@ -1,13 +1,18 @@
-import React from 'react';
-import { LeftArrowWrapper } from './styles';
-import arrow from 'assets/arrow.svg';
+import React from "react";
+import PropTypes from "prop-types";
+import { LeftArrowWrapper } from "./styles";
+import arrow from "assets/arrow.svg";
 
 const LeftArrow = props => {
   return (
-    <LeftArrowWrapper onClick={props.goToPrevSlide}>
+    <LeftArrowWrapper data-testid="leftclick" onClick={props.goToPrevSlide}>
       <img src={arrow} alt="leftarrow" />
     </LeftArrowWrapper>
   );
+};
+
+LeftArrow.propTypes = {
+  goToPrevSlide: PropTypes.func
 };
 
 export default LeftArrow;

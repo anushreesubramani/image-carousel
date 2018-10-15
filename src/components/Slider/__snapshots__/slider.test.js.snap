@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`number of images when it is bigger that desktop 1`] = `
+<div>
+  <div
+    class="App"
+    data-testid="app"
+  >
+    <div>
+      <header
+        class="sc-ifAKCX kUXXob"
+        data-testid="heading"
+      >
+        Caurosel Test
+      </header>
+      <section
+        class="sc-EHOje eQMpHY"
+      >
+        <div
+          class="sc-bwzfXH gpDCHp sc-bdVaJa ePgJGs"
+          data-testid="leftclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="leftarrow"
+          />
+        </div>
+        <ul
+          class="sc-bxivhb jBmyXp"
+        >
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+              alt="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                Comfreak
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                634
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+              alt="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                12019
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                696
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1PGnJJK2LREwv4om8TXkWBnPSvAzKQbv6AGr_9MBNbLNDWhg"
+              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1PGnJJK2LREwv4om8TXkWBnPSvAzKQbv6AGr_9MBNbLNDWhg"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                12019
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                670
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                kangbch
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                896
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+              alt="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                valiunic
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                919
+              </span>
+            </p>
+          </li>
+        </ul>
+        <div
+          class="sc-bdVaJa ePgJGs"
+          data-testid="rightclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="rightarrow"
+          />
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`number of images when it is desktop mode 1`] = `
+<div>
+  <div
+    class="App"
+    data-testid="app"
+  >
+    <div>
+      <header
+        class="sc-ifAKCX kUXXob"
+        data-testid="heading"
+      >
+        Caurosel Test
+      </header>
+      <section
+        class="sc-EHOje eQMpHY"
+      >
+        <div
+          class="sc-bwzfXH gpDCHp sc-bdVaJa ePgJGs"
+          data-testid="leftclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="leftarrow"
+          />
+        </div>
+        <ul
+          class="sc-bxivhb jBmyXp"
+        >
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+              alt="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                Comfreak
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                634
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+              alt="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                12019
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                696
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1PGnJJK2LREwv4om8TXkWBnPSvAzKQbv6AGr_9MBNbLNDWhg"
+              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1PGnJJK2LREwv4om8TXkWBnPSvAzKQbv6AGr_9MBNbLNDWhg"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                12019
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                670
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                kangbch
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                896
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+              alt="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                valiunic
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                919
+              </span>
+            </p>
+          </li>
+        </ul>
+        <div
+          class="sc-bdVaJa ePgJGs"
+          data-testid="rightclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="rightarrow"
+          />
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`number of images when it is mobile mode 1`] = `
+<div>
+  <div
+    class="App"
+    data-testid="app"
+  >
+    <div>
+      <header
+        class="sc-ifAKCX kUXXob"
+        data-testid="heading"
+      >
+        Caurosel Test
+      </header>
+      <section
+        class="sc-EHOje eQMpHY"
+      >
+        <div
+          class="sc-bwzfXH gpDCHp sc-bdVaJa ePgJGs"
+          data-testid="leftclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="leftarrow"
+          />
+        </div>
+        <ul
+          class="sc-bxivhb jBmyXp"
+        >
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+              alt="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                valiunic
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                919
+              </span>
+            </p>
+          </li>
+        </ul>
+        <div
+          class="sc-bdVaJa ePgJGs"
+          data-testid="rightclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="rightarrow"
+          />
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`number of images when it is tab mode 1`] = `
+<div>
+  <div
+    class="App"
+    data-testid="app"
+  >
+    <div>
+      <header
+        class="sc-ifAKCX kUXXob"
+        data-testid="heading"
+      >
+        Caurosel Test
+      </header>
+      <section
+        class="sc-EHOje eQMpHY"
+      >
+        <div
+          class="sc-bwzfXH gpDCHp sc-bdVaJa ePgJGs"
+          data-testid="leftclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="leftarrow"
+          />
+        </div>
+        <ul
+          class="sc-bxivhb jBmyXp"
+        >
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzhh3OzttsPNeJsYoU5MxWCv_teJlDF8pC51Qoq17Bj0NeArH"
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                kangbch
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                896
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-htpNat eSkMJV"
+            data-testid="slide"
+          >
+            <img
+              src="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+              alt="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ="
+            />
+            <p>
+              Photo By: 
+              <span
+                data-testid="image-by"
+              >
+                valiunic
+              </span>
+            </p>
+            <p>
+              Likes: 
+              <span
+                data-testid="likes"
+              >
+                919
+              </span>
+            </p>
+          </li>
+        </ul>
+        <div
+          class="sc-bdVaJa ePgJGs"
+          data-testid="rightclick"
+        >
+          <img
+            src="arrow.svg"
+            alt="rightarrow"
+          />
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

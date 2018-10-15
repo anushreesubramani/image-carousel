@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import LeftArrow from 'components/LeftArrow';
-import RightArrow from 'components/RightArrow';
-import Slide from 'components/Slide';
-import config from 'breakpoints.js';
-import { API_KEY } from 'secrets.js';
-import arrow from 'assets/arrow.svg';
-import { ListSlider, Heading, Sliders } from './styles';
+import React, { Component } from "react";
+import axios from "axios";
+import LeftArrow from "components/LeftArrow";
+import RightArrow from "components/RightArrow";
+import Slide from "components/Slide";
+import config from "breakpoints.js";
+import { API_KEY } from "secrets.js";
+import arrow from "assets/arrow.svg";
+import { response } from "./response";
+import { ListSlider, Heading, Sliders } from "./styles";
 
 export default class Slider extends Component {
   constructor(props) {
@@ -15,32 +16,33 @@ export default class Slider extends Component {
     this.state = {
       images: [],
       size: 6,
-      slides: 1,
+      slides: 5,
       counter: 0
     };
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.updateDimensions);
+    window.addEventListener("resize", this.updateDimensions);
     this.updateDimensions();
-
-    axios
-      .get(
-        `https://pixabay.com/api/?key=${API_KEY}&q=beautiful+landscape&image_type=photo`
-      )
-      .then(response => {
-        const images = this.filterImages(response.data.hits);
-        this.setState({
-          images
-        });
-      })
-      .catch(error => {
-        throw error;
-      });
+    const images = this.filterImages(response.hits);
+    this.setState({ images });
+    // axios
+    //   .get(
+    //     `https://pixabay.com/api/?key=${API_KEY}&q=beautiful+landscape&image_type=photo`
+    //   )
+    //   .then(response => {
+    //     const images = this.filterImages(response.data.hits);
+    //     this.setState({
+    //       images
+    //     });
+    //   })
+    //   .catch(error => {
+    //     throw error;
+    //   });
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateDimensions);
+    window.removeEventListener("resize", this.updateDimensions);
   }
 
   filterImages = images => {
@@ -53,7 +55,7 @@ export default class Slider extends Component {
   };
 
   updateDimensions = value => {
-    const clientWidth = document.querySelector('.App').clientWidth;
+    const clientWidth = document.querySelector(".App").clientWidth;
     const dimension = config.filter(
       item => clientWidth > item.minWidth && clientWidth <= item.maxWidth
     );
@@ -62,9 +64,9 @@ export default class Slider extends Component {
         slides: dimension[0].slidesToShow
       });
     } else {
-      this.setState({
+      this.setState(prevState => ({
         slides: 5
-      });
+      }));
     }
   };
 
@@ -107,12 +109,12 @@ export default class Slider extends Component {
   render() {
     return (
       <div>
-        <Heading>Caurosel Test</Heading>
+        <Heading data-testid="heading">Caurosel Test</Heading>
         <Sliders>
           <LeftArrow goToPrevSlide={this.handleNext} />
           <ListSlider>
             {this.getSlides().map((item, index) => (
-              <Slide image={item} key={index} />
+              <Slide image={item} keyCode={index} />
             ))}
           </ListSlider>
           <RightArrow goToNextSlide={this.handleNext}>
