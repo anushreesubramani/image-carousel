@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing left arrorw rendering left arrow and click 1`] = `
+<div>
+  <div
+    class="sc-bwzfXH gpDCHp sc-bdVaJa ePgJGs"
+    data-testid="leftclick"
+  >
+    <img
+      src="arrow.svg"
+      alt="leftarrow"
+    />
+  </div>
+</div>
+`;

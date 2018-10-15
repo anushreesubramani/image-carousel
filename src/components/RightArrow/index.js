@@ -1,10 +1,10 @@
-import React from 'react';
-import arrow from 'assets/arrow.svg';
-import { RightArrowWrapper } from './styles';
+import React from "react";
+import arrow from "assets/arrow.svg";
+import { RightArrowWrapper } from "./styles";
 
 const RightArrow = props => {
   return (
-    <RightArrowWrapper onClick={props.goToNextSlide}>
+    <RightArrowWrapper data-testid="rightclick" onClick={props.goToNextSlide}>
       <img src={arrow} alt="rightarrow" />
     </RightArrowWrapper>
   );
